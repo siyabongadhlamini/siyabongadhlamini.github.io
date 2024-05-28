@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/c28b866e38.js" crossorigin="anonymous"></script>
+    <title>contact form</title>
+</head>
+<body>
+    <section id="header">
+        <img src="image/drip.jpg" class="logo">
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="catalogue.html" class="active" href="catalogue.html">Catalogue</a></li>
+                
+            </ul>
+        </div>
+    </section>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Place your order</h2>
+            </div>  
+            <input type="hidden" name="access_key" value="e6f9533d-ca7c-49ff-9476-70c06fbc661c">
+            <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+            <input type="text" name="number" placeholder="Contact number" class="contact-inputs" required>
+            <select name="Country" class="contact-inputs" required>
+                <option value="South Africa" selected>South Africa</option>
+            </select>
+            <select name="Province" class="contact-inputs" required>
+                <option value="" disabled selected>Select Province</option>
+                <option value="Eastern Cape">Eastern Cape</option>
+                <option value="Free State">Free State</option>
+                <option value="Gauteng">Gauteng</option>
+                <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                <option value="Limpopo">Limpopo</option>
+                <option value="Mpumalanga">Mpumalanga</option>
+                <option value="Northern Cape">Northern Cape</option>
+                <option value="North West">North West</option>
+                <option value="Western Cape">Western Cape</option>
+            </select>
+            <input type="text" name="Address" placeholder="Address" class="contact-inputs" required>
+            <input type="text" name="Zip" placeholder="Zip/Postal Code" class="contact-inputs" required>
+
+            <div class="product-selection">
+                <div class="product-selection">
+                    <select name="product" id="products" class="contact-inputs">
+                        <option value="" disabled selected>Select Product</option>
+                        <!-- Necklaces -->
+                        <optgroup label="Necklaces">
+                            <option value="Circle Necklace">Circle Necklace - R200</option>
+                            <option value="Silver Necklace with C Pendant">Silver Necklace with C Pendant - R200</option>
+                            <option value="Silver Necklace with Cross">Silver Necklace with Cross - R150</option>
+                            <option value="Smiley Necklace">Smiley Necklace - R100</option>
+                            <option value="Teddy Necklace">Teddy Necklace - R150</option>
+                            <option value="Female Faces Necklace">Female Faces Necklace - R150</option>
+                            <option value="Ice Chain">Ice Chain - R300</option>
+                            <option value="Ghost Necklace">Ghost Necklace - R150</option>
+                            <option value="Custom Faces Necklace">Custom Faces Necklace - R250</option>
+                            <option value="Customized R5 Coin">Customized R5 Coin - R100</option>
+                        </optgroup>
+                        <!-- Bracelets -->
+                        <optgroup label="Bracelets">
+                            <option value="Yinyang Bracelet">Yinyang Bracelet - R40</option>
+                            <option value="Smiley Bracelet">Smiley Bracelet - R60</option>
+                            <option value="Evil Eye Bracelet">Evil Eye Bracelet - R50</option>
+                            <option value="Silver Bracelet">Silver Bracelet - R50</option>
+                            <option value="Ghost Bracelet">Ghost Bracelet - R80</option>
+                            <option value="8 Ball Bracelet">8 Ball Bracelet - R50</option>
+                            <option value="Personalised Couple Bracelets">Personalised Couple Bracelets - R80</option>
+                            <option value="Handmade Paracord Bracelet">Handmade Paracord Bracelet - R80</option>
+                            <option value="Custom Couples Bracelets">Custom Couples Bracelets - R80</option>
+                            <option value="Eagle Bracelet">Eagle Bracelet</option>
+                        </optgroup>
+                        <!-- Custom Pearls -->
+                        <optgroup label="Custom Pearls">
+                            <option value="A$ap Rocky Type Pearls">A$ap Rocky Type Pearls - R350</option>
+                            <option value="Plain Pearls">Plain Pearls - R80</option>
+                            <option value="Butterfly Pearls">Butterfly Pearls - R80</option>
+                            <option value="Smiley Necklace">Smiley Necklace - R100</option>
+                            <option value="2 Piece Couples/Besties Necklace">2 Piece Couples/Besties Necklace - R150</option>
+                            <option value="Yin Yang Pearl Obsidian">Yin Yang Pearl Obsidian - R100</option>
+                            <option value="Custom Pearls">Custom Pearls - R80</option>
+                            <option value="Pearls Bracelet">Pearls Bracelet - R80</option>
+                            <option value="Custom Couples Bracelets">Custom Couples Bracelets - R80</option>
+                            <option value="Eagle Bracelet">Eagle Bracelet</option>
+                        </optgroup>
+                        <!-- Accessories -->
+                        <optgroup label="Accessories">
+                            <option value="Y2K Beanies">Y2K Beanies - R80</option>
+                            <option value="Plain Pearls">Plain Pearls - R80</option>
+                            <option value="Men Ring">Men Ring - R50</option>
+                            <option value="Magnetic Earrings">Magnetic Earrings - R40</option>
+                            <option value="New Fashion SportGlasses">New Fashion SportGlasses - R80</option>
+                            <option value="A5 size Plaques">A5 size Plaques - R200</option>
+                            <option value="Custom Air Keyholder">Custom Air Keyholder - R60</option>
+                            <option value="Spider Beanie">Spider Beanie - R80</option>
+                            <option value="Diamond Earrings">Diamond Earrings - R40</option>
+                            <option value="Earrings">Earrings</option>
+                        </optgroup>
+                    </select>
+                </div>
+              
+
+                <label for="delivery" class="contact-label">Delivery Fee R60 Nationwide</label>
+                
+                    
+            <p id="total">Total: R0</p>
+           
+            <textarea id="selectedProducts" name="selectedProducts" placeholder="Selected Products" class="contact-inputs" readonly></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div> 
+
+    
+</body>
+</html>
+
+<script src="script.js"></script>
+
+
