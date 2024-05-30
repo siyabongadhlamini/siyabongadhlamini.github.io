@@ -20,9 +20,9 @@ h2 {
     color: #f8f8f8;
 }
 
-h3[
+h3{
     color: black;
-]
+}
 
 h4 {
     font-size: 20px;
