@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add more necklaces here
         },
         'Bracelets': {
-            'Yin Yang Bracelet': 40,
+            'Yinyang Bracelet': 40,
             'Smiley Bracelet': 60,
             'Evil Eye Bracelet': 50,
             'Silver Bracelet': 50,
@@ -28,13 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add more bracelets here
         },
         'Custom Pearls': {
-            'A$ap Rocky Type': 350,
+            'A$ap Rocky Type Pearls': 350,
             'Plain Pearls': 80,
-            'Butterfly': 80,
+            'Butterfly Pearls': 80,
             '2 Piece Couples/Besties Necklace': 150,
             'Yin Yang Pearl Obsidian': 100,
             'Personalised Couple Bracelets': 80,
             'Pearls Bracelet': 80,
+            'Custom Pearls': 80,
             'Custom Couples Bracelets': 80,
             // Add more custom pearls here
         },
